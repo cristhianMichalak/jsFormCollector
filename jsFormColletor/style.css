@@ -1,0 +1,98 @@
+html, body  {
+    display: flex;
+    margin: 0;
+    background-color: rgb(187, 185, 185);
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.labelDiv {
+    text-align: center;
+}
+
+.labelStyle {
+    border: solid;
+    border-color: black;
+    background-color: gray;
+    width: 3.5rem;
+    padding: 0.1rem;
+    display: inline-block;
+    margin: 0.3rem;
+}
+
+.inputStyle {
+    border: solid;
+    border-color: black;
+    width: 12rem;
+    padding: 0.1rem;
+    
+}
+
+.ButtonDiv {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem; 
+}
+
+.sendButton {
+    border: solid;
+    border-color: black;
+}
+
+.result {
+    border: solid;
+    border-color: black;
+    margin-top: 0.3rem;
+    padding: .5rem;
+    display: flex;
+    width: 70rem;
+}
+
+#nameInput {
+    border: solid;
+    border-color: black;
+    display: block;
+    flex-direction: column;
+    padding: 0.1rem;
+    margin: 0.4rem;
+    width: 10rem;
+    margin-bottom: 0.3rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    overflow-wrap: break-word;
+}
+
+.nameDiv, .surnameDiv, .weightDiv, .heightDiv, .emailDiv {
+    display: block;
+    flex-direction: column;
+    margin-right: 4rem;
+    width: 10rem;
+    overflow-wrap: break-word;
+    
+}
+
+#nameInput, #surnameInput, #weightInput, #heightInput, #emailInput {
+    border: solid;
+    border-color: black;
+    display: block;
+    flex-direction: column;
+    padding: 0.1rem;
+    margin: 0.4rem;
+    width: 10rem;
+    margin-bottom: 0.3rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    overflow-wrap: break-word;
+}
+
+
+.nameShow, .surnameShow, .weightShow, .heightShow, .emailShow {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+

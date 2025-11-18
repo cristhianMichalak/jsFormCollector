@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <form action=""class="form">
+        <div class="labelDiv">
+            <label for="name" class="labelStyle">Name</label>
+            <input type="text" name="name" id="name" class="inputStyle" placeholder="Type your name">
+        </div>
+        <div class="labelDiv">
+            <label for="surname" class="labelStyle">Surname</label>
+            <input type="text" name="surname" id="surname" class="inputStyle" placeholder="Type your surname">
+        </div>
+        <div class="labelDiv">
+            <label for="weight" class="labelStyle">Weight</label>
+            <input type="number" step="any" name="weight" id="weight" class="inputStyle" placeholder="Type your weight">
+        </div>
+        <div class="labelDiv">
+            <label for="height" class="labelStyle">Height</label>
+            <input type="number" step="any" name="height" id="height" class="inputStyle" placeholder="Type your height">
+        </div>
+        <div class="labelDiv">
+            <label for="email" class="labelStyle">Email</label>
+            <input type="email" name="email" id="email" class="inputStyle" placeholder="Type your email">
+        </div>
+        <div class="ButtonDiv">
+            <button type="submit" class="sendButton" id="sendButton">Send</button>
+        </div>
+        <div class="result">
+            <div class="nameDiv" id="show">
+                <label for="" id="nameInput" class="labelInput">Name</label>
+                <div class="nameShow"></div> <!-- div that show name sent on input-->
+             </div>
+             <div class="surnameDiv" id="show">
+                <label for="" id="surnameInput" class="labelInput">Surname</label>
+                <div class="surnameShow"></div> <!-- div that show surname sent on input-->
+             </div>
+             <div class="weightDiv" id="show">
+                <label for="" id="weightInput" class="labelInput">Weight</label>
+                <div class="weightShow"></div> <!-- div that show weight sent on input-->
+             </div>
+             <div class="heightDiv" id="show">
+                <label for="" id="heightInput" class="labelInput">Height</label>
+                <div class="heightShow"></div> <!-- div that show height sent on input-->
+             </div>
+             <div class="emailDiv" id="show">
+                <label for="" id="emailInput" class="labelInput"> Email</label>
+                <div class="emailShow"></div> <!-- div that show email sent on input-->
+            </div>
+        </div>
+    </form>
+
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
